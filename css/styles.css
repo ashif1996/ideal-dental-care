@@ -1,0 +1,642 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-area {
+    position: relative;
+    width: 100%;
+}
+
+.top-header {
+    position: relative;
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.top-header-content a {
+    display: inline;
+    font-size: 12px;
+    color: #707070;
+}
+
+.top-header-content a i {
+    color: #00aeef;
+    margin-right: 5px;
+}
+
+.top-header-content a:last-child {
+    margin-left: 30px;
+}
+
+.top-header-social-info {
+    text-align: right;
+}
+
+.top-header-social-info a i {
+    color: #00aeef;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main-header {
+    height: 90px;
+    background-color: #fff;
+    color: #333;
+}
+
+.main-header .classy-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main-header .nav-brand img {
+    max-width: 200px;
+    height: auto;
+}
+
+.main-header .classynav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header .classynav li {
+    margin: 0 15px;
+}
+
+.main-header .classynav a {
+    color: #333;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.main-header .classynav a:hover {
+    color: #00aeef;
+}
+
+.ideal-btn {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #00aeef;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    height: 46px;
+    padding: 0 20px;
+    line-height: 42px;
+    min-width: 140px;
+    transition: all 500ms;
+    border: 2px solid #00aeef!important;
+    font-family: "Roboto", sans-serif;
+}
+
+.ideal-btn:hover {
+    color: #00aeef;
+}
+
+.welcome-area {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background: linear-gradient(to right, #2c455d, #00012c);
+        opacity: 0.85;
+    }
+}
+
+.welcome-text {
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-text h2 {
+    display: block;
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-area img {
+    max-width: 600px;
+    height: 522px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-title .line {
+    width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+    margin: 5px auto;
+}
+
+.about-us-content {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.about-us-content h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about-us-content p {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.service-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 0;
+        background: linear-gradient(to right, #2c455d, #00012c);
+        opacity: 0.85;
+    }
+}
+
+.section-heading {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.section-heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section-heading .line {
+    width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+}
+
+.single-service {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 70px;
+}
+
+.single-service img {
+    display: block;
+    max-height: 35px;
+    margin-bottom: 15px;
+}
+
+.single-service h6 {
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.single-service h6:hover {
+    color: #00aeef;
+}
+
+.service-video {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 70px;
+}
+
+.service-video img {
+    width: 100%;
+}
+
+.service-video .service-video-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #00aeef;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    line-height: 60px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.service-video .service-video-btn:hover {
+    color: #00aeef;
+    background-color: #fff;
+}
+
+.pricing-table {
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-table table thead tr > td, .pricing-table table thead tr > th {
+    color: #fff;
+    background-color: #00aeef;
+}
+
+.pricing-table table tr > td, .pricing-table table tr > th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    color: #707070;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 4px solid #ffffff;
+}
+
+.more-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonial-area {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 0;
+        background: linear-gradient(to right, #2c455d, #00012c);
+        opacity: 0.85;
+    }  
+}
+
+.testimonial-title {
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.testimonial-title h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.testimonial-title .line {
+    width: 70px;
+    height: 4px;
+    background-color: #00aeef;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.single-testimonial-area {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-thumb img {
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.testimonial-content  h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.testimonial-content h6 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.testimonial-content p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.single-dentist-area {
+    position: relative;
+    z-index: 1;
+    background-color: #dddddd;
+    height: 290px;
+    width: 290px;
+}
+
+.single-dentist-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-dentist-area .dentist-content {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+}
+
+.single-dentist-area .dentist-content .dentist-social-info {
+    text-align: center;
+    margin-bottom: 45px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-dentist-area:focus,
+.single-dentist-area:hover {
+    .dentist-content {
+        .dentist-social-info {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.single-dentist-area .dentist-content .dentist-social-info a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #00aeef;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 7px;
+
+    &:focus,
+    &:hover {
+        background-color: #00aeef;
+        color: #fff;
+    }
+}
+
+.dentist-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.gradient-overlay {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(to right, #2c455d, #00012c);
+        opacity: 0.85;
+    }
+}
+
+.single-dentist-area .dentist-content .dentist-info h5 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.single-dentist-area .dentist-content .dentist-info p {
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.footer-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 540px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 0;
+        background: linear-gradient(to right, #2c455d, #00012c);
+        opacity: 0.85;
+    }
+}
+
+.single-footer {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.single-footer img {
+    margin-bottom: 20px;
+}
+
+.single-footer p {
+    line-height: 1.9;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.single-footer .footer-contact p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.single-footer .widget-title {
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.single-footer .opening-hours {
+    position: relative;
+    z-index: 1;
+    padding-left: 0;
+}
+
+.single-footer .opening-hours li {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.single-footer .quick-links {
+    position: relative;
+    z-index: 1;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.single-footer .quick-links li {
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.single-footer .quick-links li a {
+    color: #ffffff;
+
+    &:hover {
+        color: #00aeef;
+    }
+}
+
+.single-footer .newsletter-form {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.single-footer .newsletter-form input {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+.single-footer .newsletter-form button {
+    width: auto;
+    padding: 0 15px;
+    background-color: #00aeef;
+    color: #ffffff;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 0 2px 2px 0;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    transition-duration: 500ms;
+
+    &:hover {
+        background-color: #707070;
+        color: #00aeef;
+    }
+}
+
+.footer-social-info a i {
+    color: #ffffff;
+    margin-right: 20px;
+
+    &:hover {
+        color: #00aeef;
+    }
+}
+
+.copyright-content {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid #576a7d;
+    padding: 20px 0;
+    text-align: center
+}
+
+.copyright-content p {
+    font-size: 12px;
+    color: #b7b7b7;
+    line-height: 1.9;
+    font-weight: 400;
+    margin-bottom: 0;
+}
